@@ -5,5 +5,15 @@ Jaccount.common/src/main/java/com/spiet/account/common/dto/AccountType.java,d/9
 Uaccount.cmd/src/main/java/com/spiet/account/cmd/api/commands/CloseAccountCommand.java,0/f/0f2e7efed02849d3ef14df4d1ef977cf373b2a5c
 „
 Taccount.common/src/main/java/com/spiet/account/common/events/AccountClosedEvent.java,a/5/a5caaae85738afa711eb4116f3bcc89e2520d24c
-…
-Uaccount.common/src/main/java/com/spiet/account/common/events/FundsWithDrawEvents.java,2/2/22d77e99f14debae9d78e6a6100d5558c2411509
+F
+account.common/pom.xml,7/1/717635f54bee46740fdcfd4412d67d9bee85e155
+~
+Naccount.query/src/test/java/com/spiet/account/query/QueryApplicationTests.java,e/0/e0fa3aaffb7b56be4a12b6a5c4744c11d93898d2
+|
+Laccount.cmd/src/test/java/com/spiet/account/cmd/CommandApplicationTests.java,2/b/2b1f05aeb0d73a75d0fdfcb9141c942b1c870579
+†
+Vaccount.cmd/src/main/java/com/spiet/account/cmd/api/commands/WithDrawFundsCommand.java,b/0/b09ecbeb005da5ca51220594625dfedf98d6268f
+„
+Taccount.cmd/src/main/java/com/spiet/account/cmd/api/commands/OpenAccountComands.java,f/9/f9d1c867eaa0538290ba67a6dbfc99d04884762f
+‚
+Raccount.common/src/main/java/com/spiet/account/common/events/OpenAccountEvent.java,d/5/d52a4ec669869e498523ac95caa553b897d50e06

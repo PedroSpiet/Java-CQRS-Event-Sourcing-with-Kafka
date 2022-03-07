@@ -60,6 +60,7 @@
 			<scope>provided</scope>
 		</dependency>
 
+
 		<!-- https://mvnrepository.com/artifact/org.springframework.kafka/spring-kafka -->
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
