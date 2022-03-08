@@ -4,9 +4,11 @@ import com.spiet.account.cmd.domain.AccountAggregate;
 import com.spiet.account.cmd.infra.CommandHandler;
 import com.spiet.cqrs.core.handlers.EventSourceHandler;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.lang.reflect.InvocationTargetException;
 
+@Service
 public class AccountCommandHandler implements CommandHandler {
 
     @Autowired

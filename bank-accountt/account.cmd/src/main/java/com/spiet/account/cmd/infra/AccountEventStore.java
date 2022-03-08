@@ -5,6 +5,7 @@ import com.spiet.cqrs.core.domain.EventStoreRepository;
 import com.spiet.cqrs.core.events.BaseEvent;
 import com.spiet.cqrs.core.events.EventModel;
 import com.spiet.cqrs.core.exceptions.ConcurrencyException;
+import com.spiet.cqrs.core.infra.AccountEventsProducer;
 import com.spiet.cqrs.core.infra.EventStore;
 import com.spiet.cqrs.core.producer.EventProducer;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -60,4 +61,6 @@ public class AccountEventStore implements EventStore {
 
         return eventStream.stream().map(x -> x.getEventData()).collect(Collectors.toList());
     }
+
+
 }

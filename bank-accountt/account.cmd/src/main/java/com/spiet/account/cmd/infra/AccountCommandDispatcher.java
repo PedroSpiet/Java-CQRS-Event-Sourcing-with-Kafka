@@ -21,7 +21,7 @@ public class AccountCommandDispatcher implements CommandDispatcher {
     }
 
     @Override
-    public void send(BaseCommand baseCommand) {
+    public void send(BaseCommand baseCommand) throws Exception {
         var handlers = routes.get(baseCommand.getClass());
         if (handlers.size() > 1) {
             throw new RuntimeException("Cannot send command to more than one handlers");
