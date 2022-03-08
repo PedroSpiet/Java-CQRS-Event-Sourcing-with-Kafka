@@ -1,7 +1,0 @@
-
-(
-java:S2176"Rename this class.(¯¥ßý
-W
-java:S1612"BReplace this lambda with method reference 'BaseEvent::getVersion'.(Àµ½
-p
-java:S3655"ZCall "latestVersion.isPresent()" or "!latestVersion.isEmpty()" before accessing the value.(Ÿž†ù
